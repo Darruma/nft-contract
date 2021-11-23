@@ -7,5 +7,6 @@ def main():
         1,
         200 * 1e18
     )
-    result = nft_control.nftWeight["0xe1e546e25A5eD890DFf8b8D005537c0d373497F8"][1]
+    result = nft_control.nftWeight("0xe1e546e25A5eD890DFf8b8D005537c0d373497F8",1)
     print(result)
+    assert result == 200 * 1e18
