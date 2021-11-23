@@ -7,10 +7,10 @@ import "./Ownable.sol";
 /**
 @title BadgerDAO NFTControl Control
 @author @swoledoteth
-@notice NFTController is the on chain source of truth for Badger Boost parameters.
-The parametr exposed by NFT Control: 
+@notice NFTControl is the on chain source of truth for the Boost NFT Weights.
+The parameter exposed by NFT Control: 
 - NFT Weight
-@dev All operations must be conducted by an emission control manager.
+@dev All operations must be conducted by an nft control manager.
 The deployer is the original manager and can add or remove managers as needed.
 */
 contract NFTControl is Ownable {
